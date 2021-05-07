@@ -1,0 +1,22 @@
+.developer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 5%;
+
+}
+
+.Top_Content
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.developer > p {
+    margin-top: -1%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(58, 50, 50);
+}

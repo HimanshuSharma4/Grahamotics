@@ -1,0 +1,72 @@
+.contact{
+    display: flex;
+    padding: 10px;
+    width: auto;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.5px );
+    -webkit-backdrop-filter: blur( 0.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.contact__left {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-right: 2px solid rgb(5, 163, 211) ;
+    width: 50%;
+}
+.contact__right {
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    margin-top: 2%;
+    justify-content: left;
+    padding-left: 20px;
+}
+
+.developer_details {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+
+.Contact__input{
+    border: 3px solid skyblue;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    width: 90%;
+    outline: none;
+    border: none;
+    padding-left:10px ;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.Query__input{
+    border: 3px solid skyblue;
+    width: 90%;
+    align-items: center;
+    outline: none;
+    border: none;
+    padding-left:10px ;
+    margin-top: 10px;
+    height: 80%;
+    border-radius: 3px;
+}
+
+.contact__right > Button {
+    width: 80%;
+    align-items: center;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
